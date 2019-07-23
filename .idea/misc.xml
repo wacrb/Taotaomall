@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Taotaomall-manager" />
+    <file type="web" url="file://$PROJECT_DIR$/Taotaomall-order" />
+    <file type="web" url="file://$PROJECT_DIR$/Taotaomall-portal" />
+    <file type="web" url="file://$PROJECT_DIR$/Taotaomall-rest" />
+    <file type="web" url="file://$PROJECT_DIR$/Taotaomall-search" />
+    <file type="web" url="file://$PROJECT_DIR$/Taotaomall-sso" />
+    <file type="web" url="file://$PROJECT_DIR$/Taotaomallrest" />
+    <type id="Spring" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Taotaomall/pom.xml" />
+        <option value="$PROJECT_DIR$/Taotaomallparent/pom.xml" />
+        <option value="$PROJECT_DIR$/Taotaomallutils/pom.xml" />
+        <option value="$PROJECT_DIR$/Taotaomall-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/Taotaomall-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/Taotaomall-search/pom.xml" />
+        <option value="$PROJECT_DIR$/Taotaomall-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/Taotaomall-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/Taotaomall-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/Taotaomall-portal/pom.xml" />
+        <option value="$PROJECT_DIR$/Taotaomall-order/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

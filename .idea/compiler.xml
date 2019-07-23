@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Taotaomall-manager-mapper" />
+        <module name="Taotaomall-manager-pojo" />
+        <module name="Taotaomall-manager-service" />
+        <module name="Taotaomall-manager-web" />
+        <module name="Taotaomall-order" />
+        <module name="Taotaomall-portal" />
+        <module name="Taotaomall-rest" />
+        <module name="Taotaomall-search" />
+        <module name="Taotaomall-sso" />
+        <module name="Taotaomall-utils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Taotaomall-manager" target="1.7" />
+      <module name="Taotaomall-manager-mapper" target="1.7" />
+      <module name="Taotaomall-manager-pojo" target="1.7" />
+      <module name="Taotaomall-manager-service" target="1.7" />
+      <module name="Taotaomall-manager-web" target="1.7" />
+      <module name="Taotaomall-order" target="1.7" />
+      <module name="Taotaomall-parent" target="1.7" />
+      <module name="Taotaomall-portal" target="1.7" />
+      <module name="Taotaomall-rest" target="1.7" />
+      <module name="Taotaomall-search" target="1.7" />
+      <module name="Taotaomall-sso" target="1.7" />
+      <module name="Taotaomall-utils" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

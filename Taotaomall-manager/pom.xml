@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>Taotaomall-parent</artifactId>
+        <groupId>cn.wacrb</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../Taotaomall-parent/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>Taotaomall-manager</artifactId>
+    <packaging>pom</packaging>
+
+    <name>Taotaomall-manager</name>
+    <url>http://maven.apache.org</url>
+    <modules>
+        <module>Taotaomall-manager-pojo</module>
+        <module>Taotaomall-manager-web</module>
+        <module>Taotaomall-manager-service</module>
+        <module>Taotaomall-manager-mapper</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencyManagement>
+        <!-- 依赖管理 -->
+        <dependencies>
+            <dependency>
+                <groupId>cn.wacrb</groupId>
+                <artifactId>Taotaomall-utils</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <!-- 配置插件 -->
+        <plugins>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <port>8080</port>
+                    <path>/</path>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

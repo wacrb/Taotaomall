@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Taotaomall-manager/Taotaomall-manager.iml" filepath="$PROJECT_DIR$/Taotaomall-manager/Taotaomall-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Taotaomall-manager/Taotaomall-manager-mapper/Taotaomall-manager-mapper.iml" filepath="$PROJECT_DIR$/Taotaomall-manager/Taotaomall-manager-mapper/Taotaomall-manager-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Taotaomall-manager/Taotaomall-manager-pojo/Taotaomall-manager-pojo.iml" filepath="$PROJECT_DIR$/Taotaomall-manager/Taotaomall-manager-pojo/Taotaomall-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Taotaomall-manager/Taotaomall-manager-service/Taotaomall-manager-service.iml" filepath="$PROJECT_DIR$/Taotaomall-manager/Taotaomall-manager-service/Taotaomall-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Taotaomall-manager/Taotaomall-manager-web/Taotaomall-manager-web.iml" filepath="$PROJECT_DIR$/Taotaomall-manager/Taotaomall-manager-web/Taotaomall-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Taotaomall-order/Taotaomall-order.iml" filepath="$PROJECT_DIR$/Taotaomall-order/Taotaomall-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Taotaomall-parent/Taotaomall-parent.iml" filepath="$PROJECT_DIR$/Taotaomall-parent/Taotaomall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Taotaomall-portal/Taotaomall-portal.iml" filepath="$PROJECT_DIR$/Taotaomall-portal/Taotaomall-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Taotaomall-rest/Taotaomall-rest.iml" filepath="$PROJECT_DIR$/Taotaomall-rest/Taotaomall-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Taotaomall-search/Taotaomall-search.iml" filepath="$PROJECT_DIR$/Taotaomall-search/Taotaomall-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Taotaomall-sso/Taotaomall-sso.iml" filepath="$PROJECT_DIR$/Taotaomall-sso/Taotaomall-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Taotaomall-utils/Taotaomall-utils.iml" filepath="$PROJECT_DIR$/Taotaomall-utils/Taotaomall-utils.iml" />
+    </modules>
+  </component>
+</project>

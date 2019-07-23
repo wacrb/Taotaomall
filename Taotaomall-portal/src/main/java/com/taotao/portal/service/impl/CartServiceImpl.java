@@ -26,7 +26,7 @@ public class CartServiceImpl implements CartService {
 
     //添加购物车商品
     @Override
-    public TaotaoResult addCartItem(long itemId, int num, HttpServletRequest request, HttpServletResponse response) {
+    public TaotaoResult addCartItem(long itemId, Integer num, HttpServletRequest request, HttpServletResponse response) {
         //取商品信息
         CartItem cartItem = null;
         //取购物车商品列表
@@ -87,7 +87,7 @@ public class CartServiceImpl implements CartService {
     }
 
     @Override
-    public TaotaoResult updateCartItemNum(Long itemId, int newNum, HttpServletRequest request, HttpServletResponse response) {
+    public TaotaoResult updateCartItemNum(long itemId, Integer newNum, HttpServletRequest request, HttpServletResponse response) {
         List<CartItem> itemList = getCartItemList(request);
         //从列表中找到此商品
         for (CartItem cartItem : itemList) {
@@ -100,7 +100,6 @@ public class CartServiceImpl implements CartService {
         CookieUtils.setCookie(request, response, "TT_CART", JsonUtils.objectToJson(itemList), true);
         return TaotaoResult.ok();
     }
-
     //删除购物车商品
     @Override
     public TaotaoResult deleteCartItem(long itemId, HttpServletRequest request, HttpServletResponse response) {

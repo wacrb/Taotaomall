@@ -7,10 +7,10 @@
           <element id="module-output" name="Taotaomall-portal" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-api:5.5.0" />
+          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-api:5.5.1" />
           <element id="library" level="project" name="Maven: org.apiguardian:apiguardian-api:1.1.0" />
           <element id="library" level="project" name="Maven: org.opentest4j:opentest4j:1.2.0" />
-          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-commons:1.5.0" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-commons:1.5.1" />
           <element id="archive" name="Taotaomall-manager-pojo-1.0-SNAPSHOT.jar">
             <element id="module-output" name="Taotaomall-manager-pojo" />
           </element>

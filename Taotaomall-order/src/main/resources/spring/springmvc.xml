@@ -7,24 +7,23 @@
         http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
     <!-- 扫描controller层，在springmvc容器中生成处理器 -->
-    <context:component-scan base-package="com.taotao.portal.controller" />
+    <context:component-scan base-package="com.taotao.order.controller" />
 
     <!-- 配置默认的注解适配器和映射器 -->
-    <mvc:annotation-driven/>
+    <mvc:annotation-driven />
 
     <!-- 配置视图的前缀和后缀 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/" />
         <property name="suffix" value=".jsp" />
     </bean>
-
-    <!-- 拦截器配置 -->
-    <mvc:interceptors>
-        <mvc:interceptor>
-            <!-- 拦截订单类请求 -->
-            <mvc:mapping path="/order/**"/>
-            <bean class="com.taotao.portal.interceptor.LoginInterceptor"/>
-        </mvc:interceptor>
-    </mvc:interceptors>
+    <!-- 定义文件上传解析器 -->
+    <bean id="multipartResolver"
+          class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!-- 设定默认编码 -->
+        <property name="defaultEncoding" value="UTF-8"></property>
+        <!-- 设定文件上传的最大值5MB，5*1024*1024 -->
+        <property name="maxUploadSize" value="5242880"></property>
+    </bean>
 
 </beans>

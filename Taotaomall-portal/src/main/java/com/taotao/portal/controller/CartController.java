@@ -32,8 +32,8 @@ public class CartController {
         model.addAttribute("cartList", list);
         return "cart";
     }
-    @RequestMapping("/update/num/{itemId}/{newNum}")
-    public String updateCartItemNum(@PathVariable Long itemId, @RequestParam(defaultValue="1")Integer newNum,HttpServletRequest request, HttpServletResponse response) {
+    @RequestMapping("/update/num/{itemId}")
+    public String updateCartItemNum(@PathVariable Long itemId,@RequestParam Integer newNum,HttpServletRequest request, HttpServletResponse response) {
         cartService.updateCartItemNum(itemId,newNum, request, response);
         return "redirect:/cart/cart.html";
     }
